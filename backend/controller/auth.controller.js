@@ -1,7 +1,7 @@
 
 export const signup = async (req, res) =>{
     try {
-        const {fullName,username,password,confirmpassword}= req.body; 
+        const {fullName,username,password,confirmpassword,gender}= req.body; 
     } catch (error) {
         
     }
